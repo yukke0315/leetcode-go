@@ -1,0 +1,12 @@
+{
+  "problems": [
+    {
+      "id": 217,
+      "slug": "contains-duplicate",
+      "title": "Contains Duplicate",
+      "category": "01-arrays-hashing",
+      "difficulty": "Easy",
+      "attempts": []
+    }
+  ]
+}
