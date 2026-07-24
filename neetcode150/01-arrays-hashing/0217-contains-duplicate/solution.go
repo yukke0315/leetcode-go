@@ -5,5 +5,13 @@ package solution
 //
 // 計算量: O(?) time / O(?) space
 func containsDuplicate(nums []int) bool {
-	panic("not implemented")
+	seen := make(map[int]bool)
+	
+	for _, v := range nums {
+		if seen[v] {
+			return true
+		}
+		seen[v] = true
+	}
+	return false
 }

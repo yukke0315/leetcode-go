@@ -6,7 +6,15 @@
       "title": "Contains Duplicate",
       "category": "01-arrays-hashing",
       "difficulty": "Easy",
-      "attempts": []
+      "attempts": [
+        {
+          "date": "2026-07-24",
+          "minutes": 40,
+          "noRef": false,
+          "solved": true,
+          "note": "mapの構文で詰まった。考え方は自力"
+        }
+      ]
     }
   ]
 }
