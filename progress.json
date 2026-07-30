@@ -13,6 +13,29 @@
           "noRef": false,
           "solved": true,
           "note": "mapの構文で詰まった。考え方は自力"
+        },
+        {
+          "date": "2026-07-30",
+          "minutes": 15,
+          "noRef": false,
+          "solved": true,
+          "note": "2回目。方針は出たが手が止まった。三角"
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "slug": "valid-anagram",
+      "title": "Valid Anagram",
+      "category": "01-arrays-hashing",
+      "difficulty": "Easy",
+      "attempts": [
+        {
+          "date": "2026-07-30",
+          "minutes": 25,
+          "noRef": false,
+          "solved": true,
+          "note": "方針は自力。+1/-1の配置で少し詰まった"
         }
       ]
     }
