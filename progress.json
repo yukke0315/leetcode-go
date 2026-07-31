@@ -1,6 +1,22 @@
 {
   "problems": [
     {
+      "id": 49,
+      "slug": "group-anagrams",
+      "title": "Group Anagrams",
+      "category": "01-arrays-hashing",
+      "difficulty": "Medium",
+      "attempts": [
+        {
+          "date": "2026-07-31",
+          "minutes": 30,
+          "noRef": false,
+          "solved": true,
+          "note": "ソートで正規化する発想は自力。実装はほぼ一発"
+        }
+      ]
+    },
+    {
       "id": 217,
       "slug": "contains-duplicate",
       "title": "Contains Duplicate",
