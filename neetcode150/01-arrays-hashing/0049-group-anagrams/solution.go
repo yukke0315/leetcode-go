@@ -7,7 +7,7 @@ package solution
 import "slices"
 
 func groupAnagrams(strs []string) [][]string {
-    groups := make(map[string][]string)
+	groups := make(map[string][]string)
 
 	for _, s := range strs {
 		b := []byte(s)

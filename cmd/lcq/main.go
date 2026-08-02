@@ -70,7 +70,7 @@ func (p Problem) nextReview() (time.Time, bool) {
 	if len(p.Attempts) == 0 || p.mastered() {
 		return time.Time{}, false
 	}
-	last, err := time.Parse(dateLayout, p.Attempts[len(p.Attempts)-1].Date)
+	last, err := time.ParseInLocation(dateLayout, p.Attempts[len(p.Attempts)-1].Date, time.Local)
 	if err != nil {
 		return time.Time{}, false
 	}
