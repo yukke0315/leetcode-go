@@ -1,6 +1,22 @@
 {
   "problems": [
     {
+      "id": 1,
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "category": "01-arrays-hashing",
+      "difficulty": "Easy",
+      "attempts": [
+        {
+          "date": "2026-08-02",
+          "minutes": 40,
+          "noRef": false,
+          "solved": true,
+          "note": "補数の発想は誘導あり。seenへの登録行が抜けた"
+        }
+      ]
+    },
+    {
       "id": 49,
       "slug": "group-anagrams",
       "title": "Group Anagrams",
