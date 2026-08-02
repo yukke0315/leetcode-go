@@ -36,6 +36,13 @@
           "noRef": false,
           "solved": true,
           "note": "2回目。方針は出たが手が止まった。三角"
+        },
+        {
+          "date": "2026-08-02",
+          "minutes": 5,
+          "noRef": true,
+          "solved": true,
+          "note": "3回目。5分。手順を浮かべながら書けた"
         }
       ]
     },
@@ -52,6 +59,13 @@
           "noRef": false,
           "solved": true,
           "note": "方針は自力。+1/-1の配置で少し詰まった"
+        },
+        {
+          "date": "2026-08-02",
+          "minutes": 10,
+          "noRef": false,
+          "solved": true,
+          "note": "2回目。最後のmap全走査が抜けていた"
         }
       ]
     }

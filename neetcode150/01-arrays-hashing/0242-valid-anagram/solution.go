@@ -8,14 +8,17 @@ func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}
-	count := make(map[rune]int)
-	for _, c := range s {
-		count[c]++
+
+	ana := make(map[rune]int)
+	for _, v := range s {
+		ana[v]++
 	}
-	for _, c := range t {
-		count[c]--
+
+	for _, v := range t {
+		ana[v]--
 	}
-	for _, v := range count {
+
+	for _, v := range ana {
 		if v != 0 {
 			return false
 		}
