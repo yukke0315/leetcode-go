@@ -29,6 +29,13 @@
           "noRef": false,
           "solved": true,
           "note": "ソートで正規化する発想は自力。実装はほぼ一発"
+        },
+        {
+          "date": "2026-08-04",
+          "minutes": 20,
+          "noRef": false,
+          "solved": true,
+          "note": "2回目。ソート結果をkeyにする行が抜けた。makeの引数を混同"
         }
       ]
     },
