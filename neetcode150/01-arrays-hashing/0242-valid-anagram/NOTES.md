@@ -22,3 +22,22 @@ ps.最後に全部見ないといけない
 | 日付 | 分 | ノーカンニング | 通った | メモ |
 |---|---|---|---|---|
 | 2026-07-30 |  |  |  |  |
+if len(s) != len(t) {
+		return false
+	}
+
+	ana := make(map[rune]int)
+	for _, v := range s {
+		ana[v]++
+	}
+
+	for _, v := range t {
+		ana[v]--
+	}
+
+	for _, v := range ana {
+		if v != 0 {
+			return false
+		}
+	}
+	return true

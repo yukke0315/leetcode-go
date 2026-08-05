@@ -13,6 +13,13 @@
           "noRef": false,
           "solved": true,
           "note": "補数の発想は誘導あり。seenへの登録行が抜けた"
+        },
+        {
+          "date": "2026-08-05",
+          "minutes": 8,
+          "noRef": true,
+          "solved": true,
+          "note": "2回目。手順を書き出したら登録行が抜けなかった"
         }
       ]
     },
@@ -89,6 +96,13 @@
           "noRef": false,
           "solved": true,
           "note": "2回目。最後のmap全走査が抜けていた"
+        },
+        {
+          "date": "2026-08-05",
+          "minutes": 10,
+          "noRef": true,
+          "solved": true,
+          "note": "3回目。return位置を一度間違えた。全件チェックの型"
         }
       ]
     }
