@@ -43,6 +43,13 @@
           "noRef": false,
           "solved": true,
           "note": "2回目。ソート結果をkeyにする行が抜けた。makeの引数を混同"
+        },
+        {
+          "date": "2026-08-18",
+          "minutes": 10,
+          "noRef": false,
+          "solved": true,
+          "note": "3回目。久々で割と見つつ。"
         }
       ]
     },
