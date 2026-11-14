@@ -5,13 +5,17 @@ package solution
 //
 // 計算量: O(n) time / O(n) space
 func containsDuplicate(nums []int) bool {
-	seen := make(map[int]bool)
+	q := make(map[int]int)
 
 	for _, v := range nums {
-		if seen[v] {
+		q[v] += 1
+	}
+
+	for _, cnt := range q {
+		if cnt >= 2 {
 			return true
 		}
-		seen[v] = true
 	}
+
 	return false
 }

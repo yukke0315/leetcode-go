@@ -80,6 +80,13 @@
           "noRef": true,
           "solved": true,
           "note": "3回目。5分。手順を浮かべながら書けた"
+        },
+        {
+          "date": "2026-11-14",
+          "minutes": 30,
+          "noRef": false,
+          "solved": true,
+          "note": "3か月ぶり。方針は自力。map宣言・range・return位置で修正"
         }
       ]
     },
