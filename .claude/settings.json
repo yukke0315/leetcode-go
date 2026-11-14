@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go test *)",
+      "Bash(go vet *)",
+      "Bash(gofmt *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(./lcq *)"
+    ],
+    "deny": [
+      "Edit(neetcode150/**)",
+      "Write(neetcode150/**)"
+    ]
+  }
+}
