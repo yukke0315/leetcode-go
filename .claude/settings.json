@@ -6,11 +6,12 @@
       "Bash(gofmt *)",
       "Bash(git status)",
       "Bash(git diff *)",
-      "Bash(./lcq *)"
+      "Bash(./lcq *)",
+      "Edit(neetcode150/**/solution_test.go)"
     ],
     "deny": [
-      "Edit(neetcode150/**)",
-      "Write(neetcode150/**)"
+      "Edit(neetcode150/**/solution.go)",
+      "Edit(neetcode150/**/*.md)"
     ]
   }
 }
