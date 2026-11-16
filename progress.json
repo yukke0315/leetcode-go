@@ -20,6 +20,13 @@
           "noRef": true,
           "solved": true,
           "note": "2回目。手順を書き出したら登録行が抜けなかった"
+        },
+        {
+          "date": "2026-11-16",
+          "minutes": 40,
+          "noRef": false,
+          "solved": false,
+          "note": "mapの値側で比較しようとした。キー=引きたいもの、ok判定、:=忘れ"
         }
       ]
     },
