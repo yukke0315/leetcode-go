@@ -124,6 +124,13 @@
           "noRef": true,
           "solved": true,
           "note": "3回目。return位置を一度間違えた。全件チェックの型"
+        },
+        {
+          "date": "2026-11-18",
+          "minutes": 30,
+          "noRef": false,
+          "solved": true,
+          "note": "手順は誘導あり。ok判定だけでは個数を見ない点、len判定の==/!=逆で詰まった。全件チェックのreturn位置は自力"
         }
       ]
     }
