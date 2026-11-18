@@ -6,34 +6,21 @@ package solution
 // 計算量: O(n*klogk) time / O(n*k) space
 import "slices"
 
-// func groupAnagrams(strs []string) [][]string {
-// 	groups := make(map[string][]string)
-
-//		for _, s := range strs {
-//			b := []byte(s)
-//			slices.Sort(b)
-//			key := string(b)
-//			groups[key] = append(groups[key], s)
-//		}
-//		result := make([][]string, 0, len(groups))
-//		for _, g := range groups {
-//			result = append(result, g)
-//		}
-//		return result
-//	}
 func groupAnagrams(strs []string) [][]string {
-	arr := make(map[string][]string)
+	anagram := make(map[string][]string)
 
-	// keyとするために要素の中身をアルファベット順に
-	for _, v := range strs {
-		b := []byte(v) // stringのままでは要素の中身を並び替えられない
-		slices.Sort(b)
-		key := string(b)
-		arr[key] = append(arr[key], v)
+	for _, s := range strs {
+		a := []byte(s)
+		slices.Sort(a)
+		key := string(a)
+		anagram[key] = append(anagram[key], s)
 	}
-	result := make([][]string, 0, len(arr)) // 結果入れ
-	for _, w := range arr {
-		result = append(result, w)
+
+	groups := [][]string{}
+
+	for _, v := range anagram {
+		groups = append(groups, v)
 	}
-	return result
+
+	return groups
 }
