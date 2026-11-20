@@ -100,6 +100,12 @@
           "noRef": false,
           "solved": true,
           "note": "3か月ぶり。方針は自力。map宣言・range・return位置で修正"
+        },
+        {
+          "date": "2026-11-20",
+          "minutes": 8,
+          "noRef": true,
+          "solved": true
         }
       ]
     },
