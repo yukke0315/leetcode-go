@@ -27,6 +27,12 @@
           "noRef": false,
           "solved": false,
           "note": "mapの値側で比較しようとした。キー=引きたいもの、ok判定、:=忘れ"
+        },
+        {
+          "date": "2026-11-20",
+          "minutes": 10,
+          "noRef": true,
+          "solved": true
         }
       ]
     },
