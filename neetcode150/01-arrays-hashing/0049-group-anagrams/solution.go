@@ -7,20 +7,20 @@ package solution
 import "slices"
 
 func groupAnagrams(strs []string) [][]string {
-	anagram := make(map[string][]string)
+	anagrams := make(map[string][]string)
 
 	for _, s := range strs {
-		a := []byte(s)
-		slices.Sort(a)
-		key := string(a)
-		anagram[key] = append(anagram[key], s)
+		b := []byte(s)
+		slices.Sort(b)
+		key := string(b)
+		anagrams[key] = append(anagrams[key], s)
 	}
 
-	groups := [][]string{}
+	results := make([][]string, 0, len(anagrams))
 
-	for _, v := range anagram {
-		groups = append(groups, v)
+	for _, v := range anagrams {
+		results = append(results, v)
 	}
 
-	return groups
+	return results
 }

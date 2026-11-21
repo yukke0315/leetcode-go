@@ -69,6 +69,13 @@
           "minutes": 50,
           "noRef": false,
           "solved": true
+        },
+        {
+          "date": "2026-11-21",
+          "minutes": 18,
+          "noRef": true,
+          "solved": true,
+          "note": "テスト通過。手順でキーの型と append の受け取りを指摘されて修正。計算量の見積もりは途中"
         }
       ]
     },
