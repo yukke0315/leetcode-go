@@ -9,18 +9,16 @@ func isAnagram(s string, t string) bool {
 		return false
 	}
 
-	q := make(map[rune]int, 26)
+	cnt := make(map[rune]int, 26)
 
 	for _, c := range s {
-		q[c]++
+		cnt[c]++
 	}
 
 	for _, c := range t {
-		q[c]--
-	}
+		cnt[c]--
 
-	for _, n := range q {
-		if n != 0 {
+		if cnt[c] < 0 {
 			return false
 		}
 	}

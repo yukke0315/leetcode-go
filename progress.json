@@ -156,8 +156,22 @@
           "noRef": false,
           "solved": true,
           "note": "手順は誘導あり。ok判定だけでは個数を見ない点、len判定の==/!=逆で詰まった。全件チェックのreturn位置は自力"
+        },
+        {
+          "date": "2026-11-23",
+          "minutes": 12,
+          "noRef": true,
+          "solved": true
         }
       ]
+    },
+    {
+      "id": 347,
+      "slug": "top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "category": "01-arrays-hashing",
+      "difficulty": "Medium",
+      "attempts": null
     }
   ]
 }
