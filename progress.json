@@ -171,7 +171,14 @@
       "title": "Top K Frequent Elements",
       "category": "01-arrays-hashing",
       "difficulty": "Medium",
-      "attempts": null
+      "attempts": [
+        {
+          "date": "2026-11-23",
+          "minutes": 70,
+          "noRef": false,
+          "solved": true
+        }
+      ]
     }
   ]
 }
