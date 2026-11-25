@@ -179,6 +179,22 @@
           "solved": true
         }
       ]
+    },
+    {
+      "id": 238,
+      "slug": "product-of-array-except-self",
+      "title": "Product Of Array Except Self",
+      "category": "01-arrays-hashing",
+      "difficulty": "Medium",
+      "attempts": [
+        {
+          "date": "2026-11-25",
+          "minutes": 60,
+          "noRef": false,
+          "solved": true,
+          "note": "左右の積に分ける発想は自力。出発点の行と逆ループの開始で詰まった"
+        }
+      ]
     }
   ]
 }
