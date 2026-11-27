@@ -33,6 +33,13 @@
           "minutes": 10,
           "noRef": true,
           "solved": true
+        },
+        {
+          "date": "2026-11-27",
+          "minutes": 20,
+          "noRef": true,
+          "solved": true,
+          "note": "手順で return に seen[n] を書いたのを直して通過"
         }
       ]
     },

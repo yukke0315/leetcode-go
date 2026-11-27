@@ -7,14 +7,13 @@ package solution
 func twoSum(nums []int, target int) []int {
 	seen := make(map[int]int, len(nums))
 
-	for i, v := range nums {
-		gap := target - v
-
+	for i, n := range nums {
+		gap := target - n
 		if j, ok := seen[gap]; ok {
 			return []int{i, j}
 		}
 
-		seen[v] = i
+		seen[n] = i
 	}
 
 	return nil
