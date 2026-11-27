@@ -177,6 +177,13 @@
           "minutes": 70,
           "noRef": false,
           "solved": true
+        },
+        {
+          "date": "2026-11-27",
+          "minutes": 30,
+          "noRef": true,
+          "solved": true,
+          "note": "手順を2回直してから一発で通過。逆向きループの長さと開始が3回目"
         }
       ]
     },

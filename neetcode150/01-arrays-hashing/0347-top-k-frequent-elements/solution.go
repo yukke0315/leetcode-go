@@ -5,7 +5,7 @@ package solution
 //
 // 計算量: O(?) time / O(?) space
 func topKFrequent(nums []int, k int) []int {
-	cnt := make(map[int]int)
+	cnt := make(map[int]int, len(nums))
 
 	for _, n := range nums {
 		cnt[n]++
@@ -18,11 +18,12 @@ func topKFrequent(nums []int, k int) []int {
 	}
 
 	result := make([]int, 0, k)
+
 	for i := len(nums); i >= 0; i-- {
 		for _, c := range s[i] {
 			result = append(result, c)
-
-			if len(result) == k {
+			k--
+			if k == 0 {
 				return result
 			}
 		}

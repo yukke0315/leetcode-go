@@ -11,7 +11,19 @@ https://leetcode.com/problems/top-k-frequent-elements/
 
 ## 解法の型
 <!-- ハッシュで数える / 両端から寄せる / 単調スタック など、抽象名で -->
-
+cntをmap[int]int, len(nums)で用意。
+  range numsでforループ
+  　numsの要素をキーとしたcnt[n]をインクリメント
+  並べ替え用のスライスsを[][]int, len(nums)+1で用意。
+  range cntでforループ
+  　値とキーを入れ替える(s[v] = append(s[v], n)
+  結果格納用スライスresultを[]int, 0, kで用意。
+  for i:=len(nums); i>=0; i--
+  　range s[i]でforループ
+  　　resultのスライスにappend
+  　　kをデクリメント
+      k==0ならreturn result
+  return nil
 
 ## 詰まった点
 
