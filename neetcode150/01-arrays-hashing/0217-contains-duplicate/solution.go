@@ -7,12 +7,12 @@ package solution
 func containsDuplicate(nums []int) bool {
 	seen := make(map[int]bool, len(nums))
 
-	for _, v := range nums {
-		if seen[v] {
+	for _, n := range nums {
+		if seen[n] {
 			return true
 		}
 
-		seen[v] = true
+		seen[n] = true
 	}
 
 	return false
