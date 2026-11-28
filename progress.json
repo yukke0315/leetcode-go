@@ -213,6 +213,12 @@
           "noRef": false,
           "solved": true,
           "note": "左右の積に分ける発想は自力。出発点の行と逆ループの開始で詰まった"
+        },
+        {
+          "date": "2026-11-28",
+          "minutes": 21,
+          "noRef": true,
+          "solved": true
         }
       ]
     }
