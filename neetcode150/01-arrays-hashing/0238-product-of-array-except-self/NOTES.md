@@ -28,6 +28,24 @@ https://leetcode.com/problems/product-of-array-except-self/
 
   return answer
 
+  ２
+  返り値格納用スライスanswerを[]int, len(nums)で用意。
+  みている要素の左側の積格納用leftを[]int, len(nums)で用意。
+  同右側用rightを[]int, len(nums)で用意。
+  left[0]は1で初期化
+  right[len(nums)-1]も1で初期化。
+
+  for i:=1; i<len(nums); i++
+  　left[i] = left[i-1]*nums[i-1]にする
+
+  for i:=len(nums)-2; i>=0; i--
+  　right[i] = right[i+1]*nums[i+1]にする
+
+  for i:= range nums
+  　answer[i] = left[i]*right[i]にする
+
+  return answerする
+
 ## 詰まった点
 
 
